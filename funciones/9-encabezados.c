@@ -2,7 +2,7 @@
 #include "9-encabezados.h"
 
 int main() {
-
+    int v1;
     int v;
 
     // Llama a las 3 funciones
