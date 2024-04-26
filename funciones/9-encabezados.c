@@ -2,7 +2,7 @@
 #include "9-encabezados.h"
 
 int main() {
-
+    int v1;
     int v;
 
     // Llama a las 3 funciones
@@ -12,10 +12,10 @@ int main() {
 
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
-    v = funcion4(10);
+    v1 = funcion4(10);
 
     // Imprime el valor que retornó funcion4()
-    printf("v = %d\n", v);
+    printf("v = %d\n", v1);
 
     return 0;
 
@@ -38,6 +38,7 @@ int funcion3(int x) {
     printf("En funcion3()...\n");
     int y = x + 2;
     return y;
+}
 // funcion4(): Imprime un mensaje. Retorna el valor que recibió como argumento
 // incrementado en 2
 int funcion4(int x) {
